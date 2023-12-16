@@ -8,7 +8,7 @@ This Django project manages blog posts and provides a platform for users to view
 - `manage.py`: Django's management script.
 - `requirements.txt`: File containing Python dependencies.
 
-## `post/management/commands/example_command.py` - `example_command.py` this file name is commnad name if we change file name to `create_100_post_object.py` command name will be `python manage.py create_100_post_object`
+`post/management/commands/example_command.py` - `example_command.py` this file name is commnad name if we change file name to `create_100_post_object.py` command name will be `python manage.py create_100_post_object`
 
 ## Features
 - Custom management command for generating 100 posts
@@ -58,7 +58,7 @@ To create 100 posts, you can use the custom management command provided:
 ```bash
 python manage.py example_command
 ```
-post/
+```post/
 ├── my_app/
 │ ├── init.py
 │ ├── models.py
@@ -74,3 +74,4 @@ post/
 │ └── ...
 ├── manage.py
 └── requirements.txt
+```
